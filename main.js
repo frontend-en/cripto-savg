@@ -70,4 +70,4 @@ console.log(`Is blockchain valid? ${blockchain.isChainValid()}`);
 blockchain.chain[1].data = { amout: 1000, };
 
 console.log(`Is blockchain valid? ${blockchain.isChainValid()}`);
-// console.log(JSON.stringify(blockchain, null, 2));
+console.log(JSON.stringify(blockchain, null, 2));
